@@ -1,15 +1,40 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.dex
+*.map
+*.o
+*.so
+
+# Proguard files
+proguard/
+proguard-rules.pro
+
+# Gradle files
+.gradle/
+/build/
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Android Studio navigation files
+.navigation/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# NDK debugging files only for Android Studio 3.0 and later
+.cmake/
+
+# Generated files
+*.oat
+*.art
+*.kotlin_module
